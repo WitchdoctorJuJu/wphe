@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Site Contents]]></title><description><![CDATA[Obsidian digital garden]]></description><link>https://witchdoctorjuju.github.io/wphe/</link><image><url>https://witchdoctorjuju.github.io/wphe/lib/media/favicon.png</url><title>Site Contents</title><link>https://witchdoctorjuju.github.io/wphe/</link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 19 Mar 2024 22:26:37 GMT</lastBuildDate><atom:link href="https://witchdoctorjuju.github.io/wphe/lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 19 Mar 2024 22:26:37 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[This is Powerful Stuff]]></title><description><![CDATA[ 
+ <br><br>I have some great stuff to say.<br>]]></description><link>https://witchdoctorjuju.github.io/wphe/my-new-website.html</link><guid isPermaLink="false">My New Website.md</guid><pubDate>Tue, 19 Mar 2024 19:23:01 GMT</pubDate></item><item><title><![CDATA[WebPageHtml Export and Github Pages]]></title><description><![CDATA[ 
+ <br>This is a tutorial to explain how to create a static website with all free tools and hosting. It will use:<br>
+[GitHub Pages](<a data-tooltip-position="top" aria-label="https://pages.github.com/" rel="noopener" class="external-link" href="https://pages.github.com/" target="_blank">GitHub Pages</a>) project site for free hosting<br>
+<a data-tooltip-position="top" aria-label="https://obsidian.md" rel="noopener" class="external-link" href="https://obsidian.md" target="_blank">Obsidian</a> to create the structure we want using simple markdown<br>
+<a data-tooltip-position="top" aria-label="https://obsidian.md/plugins?id=webpage-html-export" rel="noopener" class="external-link" href="https://obsidian.md/plugins?id=webpage-html-export" target="_blank">Webpage Html Export</a> plugin for Obsidian to export our notes as a website to be published<br>
+<br>
+This is a vault to test out WebPage Html Export to GitHub pages.<br>This is a really easy way to create and maintain a website. It may not have all the bells and whistles of an eCommerce site but for something like a personal blog it is more than enough. There are also many providers out there that let you host Static Websites for free. And since GitHub pages and obsidian are also free you only need to pay if you want additional features like your own domain name. <br>Since this is a new vault I work work from scratch but I will later add links to my other pages when I move it to another vault<br><br>
+<br>Download <a data-tooltip-position="top" aria-label="https://help.obsidian.md/Getting+started/Download+and+install+Obsidian" rel="noopener" class="external-link" href="https://help.obsidian.md/Getting+started/Download+and+install+Obsidian" target="_blank">Obsidian</a> if needed
+<br><a data-tooltip-position="top" aria-label="https://help.obsidian.md/Getting+started/Create+a+**vault**" rel="noopener" class="external-link" href="https://help.obsidian.md/Getting+started/Create+a+**vault**" target="_blank">Create a new vault</a> I called mine WPHE the name of the plugin we will be using
+<br>Added a page called "index". it is required. <img alt="Pasted image 20240319150007.png" src="https://witchdoctorjuju.github.io/wphe/_attachments/pasted-image-20240319150007.png">
+<br>Deleted the welcome page
+<br>Added this page. 
+<br>follow the instructions at <a data-tooltip-position="top" aria-label="https://pages.github.com/" rel="noopener" class="external-link" href="https://pages.github.com/" target="_blank">GitHub Pages</a> which requires me to go to my <a data-tooltip-position="top" aria-label="https://github.com/" rel="noopener" class="external-link" href="https://github.com/" target="_blank">Github Account</a>
+<br>It asks me to create a new GitHub repository. I can either create a "user" or a "project" page. Organization doesn't really apply to me. The main difference is that I get just 1 user page and can have multiple project pages. So if I have multiple sites I probably want a project page. The url for a user page appears to look like <a rel="noopener" class="external-link" href="https://_username_.github.io" target="_blank">https://_username_.github.io</a>. and the url for the project page appears to look like <a rel="noopener" class="external-link" href="http://_username_.github.io/_repository" target="_blank">http://_username_.github.io/_repository</a>_ So they tack the repository name on the end. Ill set up a project page for another website. 
+<br>In another browser tab I log into my <a data-tooltip-position="top" aria-label="https://github.com/" rel="noopener" class="external-link" href="https://github.com/" target="_blank">Github Account</a> and click new repo. I type in a new name of "wphe" (wphe stands for webpage html export).
+<br>Created with the following settings:<img alt="Pasted image 20240319143101.png" src="https://witchdoctorjuju.github.io/wphe/_attachments/pasted-image-20240319143101.png"> We don't need a readme but by clicking it, it inits the repo for us. 
+<br>Back to the steps for a project site in the other browser tab...
+<br>Theme or No Theme? Since I am going to use WebPage Html Export I wont choose a theme as I am not going to build this. I will start from scratch. So I can skip this step.
+<br>Index page. I will create one just to see the page live for now. I followed steps 2 &amp; 3 of the documentation to create this.  But it took me a while to figure out how to add a file. <img alt="Pasted image 20240319143646.png" src="https://witchdoctorjuju.github.io/wphe/_attachments/pasted-image-20240319143646.png"> See the big green code button and next to it is "add a file"<img alt="Pasted image 20240319143908.png" src="https://witchdoctorjuju.github.io/wphe/_attachments/pasted-image-20240319143908.png">  I give it a file name "index.html" and the contents shown in line 1 and click the big green button at the upper right titled "Commit changes...".<img alt="Pasted image 20240319144100.png" src="https://witchdoctorjuju.github.io/wphe/_attachments/pasted-image-20240319144100.png"> I get this popup and I accept the defaults in the popup and just click Commit Changes.
+<br>Setting the repository to use pages. Following step 4 of the guide I clicked on the settings icon in the repo then scrolled down to "pages" and changed the "branch" to "main" and set the folder to / (root) and click Save <img alt="Pasted image 20240319144810.png" src="https://witchdoctorjuju.github.io/wphe/_attachments/pasted-image-20240319144810.png">as shown. NOTE: If the files for the website lived inside a folder like say public as may static site generators do, you might want to set this to public instead if you are copying the folders into git. but in our case I will just put them at the root (top level) of the repository.
+<br>I really wish they would give me a link to the page. They claim "Fire up a browser and go to <a data-tooltip-position="top" aria-label="http://_username_.github.io/_repository_.%22" rel="noopener" class="external-link" href="http://_username_.github.io/_repository_.%22" target="_blank">http://_username_.github.io/_repository_."</a>  <a rel="noopener" class="external-link" href="http://witchdoctorjuju.github.io/wphe" target="_blank">http://witchdoctorjuju.github.io/wphe</a> and we can see it worked <img alt="Pasted image 20240319145537.png" src="https://witchdoctorjuju.github.io/wphe/_attachments/pasted-image-20240319145537.png"> So we know github pages and my repo is setup and working.<br>
+Now we can move onto WebPage  HTML Export
+<br><br>So we need to get this down to our desktop so we can later push our files back up. The easiest way to do this is to do what is called cloning the repository. You will need to download and <a data-tooltip-position="top" aria-label="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git" rel="noopener" class="external-link" href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git" target="_blank">install git</a> software for this. In my case I am on a Debian based Linux distribution I already have it installed. Once you have git installed you can open a terminal or command prompt. On Linux terminal is in the menu. <br>We also need to create and setup and ssh key see these <a data-tooltip-position="top" aria-label="https://docs.github.com/en/authentication/connecting-to-github-with-ssh" rel="noopener" class="external-link" href="https://docs.github.com/en/authentication/connecting-to-github-with-ssh" target="_blank">Connecting to github with SSH</a><br>
+<br><a data-tooltip-position="top" aria-label="https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent" rel="noopener" class="external-link" href="https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent" target="_blank">generate an SSH key</a>
+<br><a data-tooltip-position="top" aria-label="https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account" rel="noopener" class="external-link" href="https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account" target="_blank">add it to your account</a>
+<br>ssh add - since I did not use the default names I have to manually load the desired private key into memory. I do this with ssh-add /home/username/.ssh/my-key note I did not use the .pub version
+<br><a data-tooltip-position="top" aria-label="https://docs.github.com/en/authentication/connecting-to-github-with-ssh/testing-your-ssh-connection" rel="noopener" class="external-link" href="https://docs.github.com/en/authentication/connecting-to-github-with-ssh/testing-your-ssh-connection" target="_blank">Test your connection</a> ssh -T git@github.com
+<br>I can get the repository URL to clone by going to my repo and clicking Code&gt; SSH &gt; and copy the URL:<br>
+<img alt="Pasted image 20240319181440.png" src="https://witchdoctorjuju.github.io/wphe/_attachments/pasted-image-20240319181440.png"><br>cd $HOME
+# git clone URL
+git clone https://github.com/WitchdoctorJuJu/wphe.git
+cd wphe
+git remote -v
+Copy<br>This created a directory called wphe and it contains a hidden folder .git to keep track of your code changes. So don't delete that folder. We will use this folder going forward.<br><br>We can test our ability to push changes<br>
+In the new wphe directory open the index.html<br>
+&lt;h1&gt;Hello WPHE for Obsidian&lt;/h1&gt;<br>
+I added for Obsidian to the header and saved the file.<br>git status
+git add -u
+git status
+git commit -m "change index header"
+git status
+git push -u origin main
+
+### my output
+$ git push -u origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 20 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 306 bytes | 306.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:WitchdoctorJuJu/wphe.git
+   781778b..adc8498  main -&gt; main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+Copy<br> I do recommend you take a course on using git.<br>
+Then I check the url of my site again: <a rel="noopener" class="external-link" href="https://witchdoctorjuju.github.io/wphe/" target="_blank">https://witchdoctorjuju.github.io/wphe/</a><br>
+<img alt="Pasted image 20240319182426.png" src="https://witchdoctorjuju.github.io/wphe/_attachments/pasted-image-20240319182426.png"><br>
+And we see the changes. So we can successfully make changes on our laptop/desktop and push those changes up to GitHub. Note that you may have to do the SSH add step each time you boot your computer if you need that step.<br><br>We are talking about the plugin WebPage Html Export" in the Obsidian plugins. I should note that before you proceed you may want to consider if plugins are a security concern for you. <br><br>First we need to first allow plugins to be used in Obsidian Settings (Cog) &gt; Community Plugins &gt; Turn On Community Plugins (Button) . Notice the link on <a data-tooltip-position="top" aria-label="https://help.obsidian.md/Extending+Obsidian/Community+plugins" rel="noopener" class="external-link" href="https://help.obsidian.md/Extending+Obsidian/Community+plugins" target="_blank">Plugin Security</a> as well.<br><br>Once plugins are allowed we must go back into **Settings (Cog) &gt; Community Plugins &gt;  Browse &gt; Search: Webpage Html Export &gt; click to select, then click install.<br><br>Now that the plugin is installed, we have to enable it.<br>
+Settings (Cog) &gt; Community Plugins  on the bottom of the page is a now shown the plugin, toggle the circle to enable the plugin. This screenshot shows the plugin enabled.<br>
+<img alt="Pasted image 20240319151654.png" src="https://witchdoctorjuju.github.io/wphe/_attachments/pasted-image-20240319151654.png"><br><br>
+<br>Create a new note: My New Website
+<br>Add some text by following the <a data-tooltip-position="top" aria-label="https://help.obsidian.md/Editing+and+formatting/Basic+formatting+syntax" rel="noopener" class="external-link" href="https://help.obsidian.md/Editing+and+formatting/Basic+formatting+syntax" target="_blank">Basic Formatting Syntax</a>
+<br>Add some headings
+<br>Add an image. Perhaps screenshot of something not copyrighted. Perhaps drag an image from your pictures folder you want to share.
+<br>Toggle between reading mode and edit mode (tip: Ctrl-E)
+<br><br><img alt="Pasted image 20240319152758.png" src="https://witchdoctorjuju.github.io/wphe/_attachments/pasted-image-20240319152758.png"><br>
+The export can be found on the left hand window. At least this is how it looks on Linux desktop. The icon is probably similar on other versions.<br><img alt="Pasted image 20240319163434.png" src="https://witchdoctorjuju.github.io/wphe/_attachments/pasted-image-20240319163434.png"><br>Be sure to first create a folder for the export. I used /home/user/wphe_dev. I gave it a different name because I do not want to mix the development with the production website. Then I clicked export and used the settings above. Note that I have not had to check the images for it to work. Click "save" after you select the pages you want and it will remember it for next time. Export Mode "HTML Documents" works best for viewing the files locally on your computer. This is a great development mode without a webserver. When the file manager opens right0-click on the index file and open in a browser i.e. Firefox, Chrome, Edge, Safari, .... Click around and see how it works. <br><img alt="Pasted image 20240319160720.png" src="https://witchdoctorjuju.github.io/wphe/_attachments/pasted-image-20240319160720.png"><br>
+See how easy that was.<br><br>So I realize some things are not as I want them<br>
+<br>WPHE above the menu doesnt look good and it is the name of the vault. We will change this to say "Site Contents" instead.
+<br>index is a bad name
+<br>the attachments in the way  in our vault<img alt="Pasted image 20240319153804.png" src="https://witchdoctorjuju.github.io/wphe/_attachments/pasted-image-20240319153804.png">****
+<br>Lets try to change these things<br><br>First, I recommend setting the following in Settings:<br>
+<br>Editor &gt; Spellcheck
+<br>Files and Links &gt; auto update internal links
+<br>That second one will automatically fix links if you move pages around inside your vault.Very helpfil.<br><br>Settings &gt; Files and Links &gt;<br>
+<img alt="Pasted image 20240319154339.png" src="https://witchdoctorjuju.github.io/wphe/_attachments/pasted-image-20240319154339.png"><br>if you do this, all attachments get put in a folder called _attachments at the top of your vault. Check the drop down for more options. You may need to paste a new image into a note and it will create the folder. Once it exists I can simply drag all of those "Pasted image..." PNG into the _attachments folder.  That's better...<br><img alt="Pasted image 20240319155052.png" src="https://witchdoctorjuju.github.io/wphe/_attachments/pasted-image-20240319155052.png"><br>Now all future attachments should go into that same folder. <br><br>We use <a data-tooltip-position="top" aria-label="https://help.obsidian.md/Editing+and+formatting/Properties" rel="noopener" class="external-link" href="https://help.obsidian.md/Editing+and+formatting/Properties" target="_blank">Properties</a> to add the title. First we select the page with the name index in our left hand notes pane and select the page on the right as if we were going to type in more info. I tried it once without selecting the page and the steps below failed.<br>Then select the command pallet as shown below<br>
+<img alt="Pasted image 20240319155915.png" src="https://witchdoctorjuju.github.io/wphe/_attachments/pasted-image-20240319155915.png"><br>
+In the popup, Search for "Add file property" and select it.<br>
+Add a property called "title" and give it a display name. You should end up with something like this.<br>
+<img alt="Pasted image 20240319160329.png" src="https://witchdoctorjuju.github.io/wphe/_attachments/pasted-image-20240319160329.png"><br><br>At this point lets do another export as this setting is in the export.<br>
+In the export settings, this time select the settings cog <img alt="Pasted image 20240319161448.png" src="https://witchdoctorjuju.github.io/wphe/_attachments/pasted-image-20240319161448.png">below the export button. Under MetaData &gt;<br>
+<img alt="Pasted image 20240319161607.png" src="https://witchdoctorjuju.github.io/wphe/_attachments/pasted-image-20240319161607.png"><br>
+I changed it from WPHE to Site Contents.<br>Click export again and view in a browser.<br>
+<img alt="Pasted image 20240319162046.png" src="https://witchdoctorjuju.github.io/wphe/_attachments/pasted-image-20240319162046.png"><br>
+Nice our site name is fixed.<br><br>Ok so lets change the settings and export our production site this time.<br>Change these<br>
+<br>Export Directory: /home/user/whpe   # use the REPO dir w/o dev
+<br>Export Mode: Oneline Web Server
+<br>Public Site URL: set to the github pages url<br>
+<img alt="Pasted image 20240319163923.png" src="https://witchdoctorjuju.github.io/wphe/_attachments/pasted-image-20240319163923.png"><br>
+Now back in your command prompt running git
+<br>git status
+git add --all
+git status
+git commit -m "first prod website"
+git status
+git remote -v
+git push -u origin main
+Copy<br>oops I was trying to show you the easy way. But I got the message.<br>remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+Copy]]></description><link>https://witchdoctorjuju.github.io/wphe/webpagehtml-export-and-github-pages.html</link><guid isPermaLink="false">WebPageHtml Export and Github Pages.md</guid><pubDate>Tue, 19 Mar 2024 22:25:44 GMT</pubDate><enclosure url="https://witchdoctorjuju.github.io/wphe/_attachments/pasted-image-20240319150007.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://witchdoctorjuju.github.io/wphe/_attachments/pasted-image-20240319150007.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Welcome To WPHE Tutorial]]></title><description><![CDATA[ 
+ <br>Welcome to WPHE - WebPage Html Export and GitHub pages]]></description><link>https://witchdoctorjuju.github.io/wphe/index.html</link><guid isPermaLink="false">index.md</guid><pubDate>Tue, 19 Mar 2024 20:03:03 GMT</pubDate></item></channel></rss>
